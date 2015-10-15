@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					B5D21EC01BC727E500FCD79B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3W2D35BGJW;
 					};
 					B5D21ED41BC727E500FCD79B = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -396,10 +397,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Application/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/ResourceRules.plist;
 				INFOPLIST_FILE = simpleTestProjectiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.simpleTestProjectiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f3dfd9a7-67d7-49c6-825c-e5ed33837b71";
 			};
 			name = Debug;
 		};
@@ -407,10 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Application/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/ResourceRules.plist;
 				INFOPLIST_FILE = simpleTestProjectiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.simpleTestProjectiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f3dfd9a7-67d7-49c6-825c-e5ed33837b71";
 			};
 			name = Release;
 		};
@@ -481,6 +488,7 @@
 				B5D21EEB1BC727E500FCD79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D21EEC1BC727E500FCD79B /* Build configuration list for PBXNativeTarget "simpleTestProjectiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +497,7 @@
 				B5D21EEE1BC727E500FCD79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D21EEF1BC727E500FCD79B /* Build configuration list for PBXNativeTarget "simpleTestProjectiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				B5D21EF11BC727E500FCD79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
