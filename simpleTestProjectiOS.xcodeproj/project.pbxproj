@@ -400,6 +400,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_RESOURCE_RULES_PATH = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/ResourceRules.plist;
 				INFOPLIST_FILE = simpleTestProjectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.datacom.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +415,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Datacom (3W2D35BGJW)";
 				CODE_SIGN_RESOURCE_RULES_PATH = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/ResourceRules.plist;
 				INFOPLIST_FILE = simpleTestProjectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.datacom.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
